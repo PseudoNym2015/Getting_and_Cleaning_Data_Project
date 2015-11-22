@@ -1,8 +1,9 @@
 # Getting_and_Cleaning_Data_Project
 The purpose of this project is to consolidate and summarize data collected previously from the accelerometers of the Samsung Galaxy S smartphone. 
 
-For the purposes of the current project, the script replicated below was developed to merge training and test data sets from the original investigators, extract only those variable describing the mean and standard deviation of each measurement and label activities and variable names in the resulting reduced data set with appropriate descriptive names. The output of the script is a txt file called "final_data.txt" (a data frame called "final_data" is also created) is created displaying the average of each variable of interest for each subject and activity.
+For the purposes of the current project, the script replicated below was developed to merge training and test data sets from the original investigators, extract only those variable describing the mean and standard deviation of each measurement and label activities and variable names in the resulting reduced data set with appropriate descriptive names. The output of the script is a txt file called "final_data.txt" (a data frame called "final_data" is also created) which displays the average of each variable of interest for each subject and activity.
 
+'#Begin script:
 '#read in features and activity labels
 features<-read.table("UCI HAR Dataset/features.txt",colClasses = "character")
 column_names<-features[,2]
