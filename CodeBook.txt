@@ -8,10 +8,10 @@ The resulting file contains data from observations from each of 30 subjects coll
 		Unique identifier for each of the 30 subjects
 
 [2] "activity"
-		Character string describing the activity during 						which data collection occurred. Possible values 						include: “LAYING”, “SITTING”, “STANDING”, 							“WALKING”, “WALKING_DOWNSTAIRS”, AND 								“WALKING_UPSTAIRS”
+		Character string describing the activity during which data collection occurred. Possible values include: â€œLAYINGâ€, â€œSITTINGâ€, â€œSTANDINGâ€, â€œWALKINGâ€, â€œWALKING_DOWNSTAIRSâ€, AND â€œWALKING_UPSTAIRSâ€
 
 [3] "tBodyAcc.mean...X"	
-		This and all subsequent columns contain the average of data from the 			original data set for each variable described in the column name for 			each subject and each activity. Further description of the variables 			measured are available in the “features_info.txt” file associated with 		the original data and repeated below in the “Feature Selection” 				section.
+		This and all subsequent columns contain the average of data from the original data set for each variable described in the column name for each subject and each activity. Further description of the variables measured are available in the â€œfeatures_info.txtâ€ file associated with the original data and repeated below in the â€œFeature Selectionâ€ section.
 [4] "tBodyAcc.mean...Y"              
 [5] "tBodyAcc.mean...Z"              
 [6] "tGravityAcc.mean...X"           
@@ -99,7 +99,7 @@ Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Università degli Studi di Genova.
+DITEN - UniversitÃ  degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
